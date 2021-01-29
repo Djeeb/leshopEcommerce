@@ -19,7 +19,7 @@
                                 Home
                             </a></li>
                         <li class="nav-item submenu dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <a href="{{ route('shop.index') }}" class="nav-link">
                                 <i class="fas fa-shopping-bag"></i>
                                 Shop
                             </a>
@@ -40,7 +40,7 @@
                                 Sign Up
                             </a></li>
                         <li class="nav-item submenu dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <a href="#" class="nav-link">
                                 <i class="fas fa-sign-in-alt"></i>
                                 Login
                             </a>
